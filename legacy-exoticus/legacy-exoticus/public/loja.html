@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja — Legacy Exoticus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="logo" href="index.html" data-img="logo" data-alt="Legacy Exoticus" aria-label="Legacy Exoticus">
+        <span class="logo-word">LEGACY</span>
+        <span class="logo-sub">EXOTICUS</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="loja.html" class="active">Loja</a>
+        <a href="animais.html">Nossos Animais</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a class="btn btn-nav" href="cadastro.html">Cadastre-se</a>
+      </nav>
+    </header>
+    <main>
+
+      <span class="pill">Loja</span>
+      <div class="page-head" style="margin-top:6px">
+        <h1>Nossa <span class="gold">loja</span></h1>
+        <p class="aside-text" style="text-align:right">Ração própria, acessórios e viveiros. Compra e venda de animais está em Nossos Animais.</p>
+      </div>
+      <div class="chips" data-filter-group=".product">
+        <button type="button" class="chip active" data-cat="todos">Todos</button>
+        <button type="button" class="chip" data-cat="racao">Ração própria</button>
+        <button type="button" class="chip" data-cat="acessorios">Acessórios</button>
+        <button type="button" class="chip" data-cat="viveiros">Viveiros</button>
+      </div>
+      <div class="grid-4">
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-racao-para-aves" data-alt="Ração para aves"><span class="ph-label">foto</span></div>
+          <div><h3>Ração para aves</h3><p>Mix de frutas e grãos, feito aqui</p></div>
+        </article>
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-racao-para-psitacideos" data-alt="Ração para psitacídeos"><span class="ph-label">foto</span></div>
+          <div><h3>Ração para psitacídeos</h3><p>Sementes e pellets balanceados</p></div>
+        </article>
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-racao-para-repteis" data-alt="Ração para répteis"><span class="ph-label">foto</span></div>
+          <div><h3>Ração para répteis</h3><p>Folhas e vegetais desidratados</p></div>
+        </article>
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-racao-para-roedores" data-alt="Ração para roedores"><span class="ph-label">foto</span></div>
+          <div><h3>Ração para roedores</h3><p>Grãos, fibras e feno</p></div>
+        </article>
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-mix-de-sementes" data-alt="Mix de sementes"><span class="ph-label">foto</span></div>
+          <div><h3>Mix de sementes</h3><p>Para calopsitas e periquitos</p></div>
+        </article>
+        <article class="card product" data-cat="racao">
+          <div class="ph " data-img="produto-papinha-para-filhotes" data-alt="Papinha para filhotes"><span class="ph-label">foto</span></div>
+          <div><h3>Papinha para filhotes</h3><p>Preparo fácil, alimentação de apoio</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-comedouro" data-alt="Comedouro"><span class="ph-label">foto</span></div>
+          <div><h3>Comedouro</h3><p>Cerâmica e inox, vários tamanhos</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-bebedouro" data-alt="Bebedouro"><span class="ph-label">foto</span></div>
+          <div><h3>Bebedouro</h3><p>Para aves, répteis e roedores</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-lampada-uvb" data-alt="Lâmpada UVB"><span class="ph-label">foto</span></div>
+          <div><h3>Lâmpada UVB</h3><p>Luz para a saúde óssea de répteis</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-lampada-de-aquecimento" data-alt="Lâmpada de aquecimento"><span class="ph-label">foto</span></div>
+          <div><h3>Lâmpada de aquecimento</h3><p>Cria o ponto de sol no terrário</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-termo-higrometro" data-alt="Termo-higrômetro"><span class="ph-label">foto</span></div>
+          <div><h3>Termo-higrômetro</h3><p>Controle de temperatura e umidade</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-substrato" data-alt="Substrato"><span class="ph-label">foto</span></div>
+          <div><h3>Substrato</h3><p>Fibra de coco, areia e cascas</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-toca-e-esconderijo" data-alt="Toca e esconderijo"><span class="ph-label">foto</span></div>
+          <div><h3>Toca e esconderijo</h3><p>Abrigo seguro para descanso</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-poleiros-e-galhos" data-alt="Poleiros e galhos"><span class="ph-label">foto</span></div>
+          <div><h3>Poleiros e galhos</h3><p>Naturais, para aves e répteis</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-coleira-e-peitoral" data-alt="Coleira e peitoral"><span class="ph-label">foto</span></div>
+          <div><h3>Coleira e peitoral</h3><p>Passeio seguro para furões</p></div>
+        </article>
+        <article class="card product" data-cat="acessorios">
+          <div class="ph " data-img="produto-caixa-de-transporte" data-alt="Caixa de transporte"><span class="ph-label">foto</span></div>
+          <div><h3>Caixa de transporte</h3><p>Segura e ventilada</p></div>
+        </article>
+        <article class="card product" data-cat="viveiros">
+          <div class="ph " data-img="produto-terrario-de-vidro" data-alt="Terrário de vidro"><span class="ph-label">foto</span></div>
+          <div><h3>Terrário de vidro</h3><p>Sob medida para répteis e anfíbios</p></div>
+        </article>
+        <article class="card product" data-cat="viveiros">
+          <div class="ph " data-img="produto-viveiro-para-aves" data-alt="Viveiro para aves"><span class="ph-label">foto</span></div>
+          <div><h3>Viveiro para aves</h3><p>Estrutura reforçada e personalizada</p></div>
+        </article>
+        <article class="card product" data-cat="viveiros">
+          <div class="ph " data-img="produto-recinto-externo" data-alt="Recinto externo"><span class="ph-label">foto</span></div>
+          <div><h3>Recinto externo</h3><p>Projeto personalizado, espaço amplo</p></div>
+        </article>
+        <article class="card product" data-cat="viveiros">
+          <div class="ph " data-img="produto-kit-viveiro-completo" data-alt="Kit viveiro completo"><span class="ph-label">foto</span></div>
+          <div><h3>Kit viveiro completo</h3><p>Estrutura, luz, substrato e decoração</p></div>
+        </article>
+      </div>
+      <div class="footer-row" style="justify-content:space-between">
+        <p class="address">Avenida Cruzeiro do Sul, 2380</p>
+        <a class="btn" href="https://wa.me/5511900000000" target="_blank" rel="noopener">Ver mais itens</a>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

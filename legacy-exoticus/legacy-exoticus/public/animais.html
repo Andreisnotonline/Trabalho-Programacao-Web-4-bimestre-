@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nossos Animais — Legacy Exoticus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="logo" href="index.html" data-img="logo" data-alt="Legacy Exoticus" aria-label="Legacy Exoticus">
+        <span class="logo-word">LEGACY</span>
+        <span class="logo-sub">EXOTICUS</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="loja.html">Loja</a>
+        <a href="animais.html" class="active">Nossos Animais</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a class="btn btn-nav" href="cadastro.html">Cadastre-se</a>
+      </nav>
+    </header>
+    <main>
+
+      <span class="pill">Espécies fascinantes</span>
+      <div class="page-head">
+        <h1>Espécies <span class="gold">da selva</span></h1>
+        <p class="aside-text">Cada espécie tem características e necessidades próprias. Conheça antes de decidir.</p>
+      </div>
+      <div class="chips" data-filter-group=".animal">
+        <button type="button" class="chip active" data-cat="todos">Todos</button>
+        <button type="button" class="chip" data-cat="Aves">Aves</button>
+        <button type="button" class="chip" data-cat="Répteis">Répteis</button>
+        <button type="button" class="chip" data-cat="Primatas">Primatas</button>
+        <button type="button" class="chip" data-cat="Mamíferos">Mamíferos</button>
+        <button type="button" class="chip" data-cat="Anfíbios">Anfíbios</button>
+      </div>
+      <div class="grid-5">
+        <article class="card animal" data-cat="Aves">
+          <div class="ph " data-img="arara-azul" data-alt="Arara-azul"><span class="ph-label">foto</span><span class="tag">Aves</span></div>
+          <h3>Arara-azul</h3>
+          <em>A Voz Silenciada</em>
+          <p>Após anos em cativeiro irregular, chegou com as penas danificadas e precisa reaprender a viver livremente.</p>
+        </article>
+        <article class="card animal" data-cat="Aves">
+          <div class="ph " data-img="tucano-toco" data-alt="Tucano-toco"><span class="ph-label">foto</span><span class="tag">Aves</span></div>
+          <h3>Tucano-toco</h3>
+          <em>O Viajante Ferido</em>
+          <p>Resgatado à beira de uma estrada após colidir com um veículo, agora luta para recuperar o voo.</p>
+        </article>
+        <article class="card animal" data-cat="Mamíferos">
+          <div class="ph " data-img="ornitorrinco" data-alt="Ornitorrinco"><span class="ph-label">foto</span><span class="tag">Mamíferos</span></div>
+          <h3>Ornitorrinco</h3>
+          <em>O Sobrevivente das Águas</em>
+          <p>Foi resgatado após uma tempestade destruir sua toca, deixando-o ferido e longe de seu território.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis">
+          <div class="ph " data-img="cobra-rei-albina" data-alt="Cobra-rei albina"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Cobra-rei albina</h3>
+          <em>Marfim, a Rainha Pálida</em>
+          <p>Rara e imponente, chegou ferida após uma transferência, recusando-se a comer e desconfiando de todos ao redor.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis">
+          <div class="ph " data-img="dragao-de-komodo" data-alt="Dragão de Komodo"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Dragão de Komodo</h3>
+          <em>O Guerreiro Derrotado</em>
+          <p>Chegou gravemente ferido após uma batalha contra outro macho pela disputa de uma fêmea.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis" data-extra>
+          <div class="ph " data-img="iguana-verde" data-alt="Iguana-verde"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Iguana-verde</h3>
+          <em>A Pequena Sobrevivente</em>
+          <p>Chegou debilitada por condições inadequadas de manejo e agora luta para recuperar a saúde.</p>
+        </article>
+        <article class="card animal" data-cat="Primatas" data-extra>
+          <div class="ph " data-img="sagui-de-tufo" data-alt="Sagui-de-tufo"><span class="ph-label">foto</span><span class="tag">Primatas</span></div>
+          <h3>Sagui-de-tufo</h3>
+          <em>O Órfão da Floresta</em>
+          <p>Encontrado sozinho perto de uma área desmatada, precisa recuperar as forças e reencontrar seu lugar entre os seus.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis" data-extra>
+          <div class="ph " data-img="dragao-barbudo" data-alt="Dragão-barbudo"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Dragão-barbudo</h3>
+          <em>O Solitário do Deserto</em>
+          <p>Abandonado num apartamento sem calor nem luz, aprende de novo a tomar sol e a confiar em quem cuida.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis" data-extra>
+          <div class="ph " data-img="camaleao-pantera" data-alt="Camaleão-pantera"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Camaleão-pantera</h3>
+          <em>O Mestre das Cores</em>
+          <p>Chegou estressado e escurecido após transporte irregular; as cores voltam aos poucos, com a confiança.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis" data-extra>
+          <div class="ph " data-img="piton-bola" data-alt="Píton-bola"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Píton-bola</h3>
+          <em>A Tímida Enrolada</em>
+          <p>Entregue por um tutor que desistiu da rotina, vive enrolada e desconfiada, mas já aceita alimento.</p>
+        </article>
+        <article class="card animal" data-cat="Aves" data-extra>
+          <div class="ph " data-img="cacatua-de-crista" data-alt="Cacatua-de-crista"><span class="ph-label">foto</span><span class="tag">Aves</span></div>
+          <h3>Cacatua-de-crista</h3>
+          <em>A Dançarina Barulhenta</em>
+          <p>Passou anos sozinha numa gaiola pequena; hoje dança ao ouvir música e precisa de companhia para ser feliz.</p>
+        </article>
+        <article class="card animal" data-cat="Mamíferos" data-extra>
+          <div class="ph " data-img="pantera-negra" data-alt="Pantera Negra"><span class="ph-label">foto</span><span class="tag">Mamíferos</span></div>
+          <h3>Pantera Negra</h3>
+          <em>A Dama da Noite</em>
+          <p>Foi encontrada no telhado de um hotel de luxo após perseguir um pavão que roubou sua refeição. Mesmo sedada, manteve uma postura tão imponente que parecia ser ela a dona do lugar.</p>
+        </article>
+        <article class="card animal" data-cat="Anfíbios" data-extra>
+          <div class="ph " data-img="axolote" data-alt="Axolote"><span class="ph-label">foto</span><span class="tag">Anfíbios</span></div>
+          <h3>Axolote</h3>
+          <em>O Eterno Sorriso</em>
+          <p>Resgatado de um aquário pequeno e sujo, reaprende a viver em água limpa, fria e bem oxigenada.</p>
+        </article>
+        <article class="card animal" data-cat="Mamíferos" data-extra>
+          <div class="ph " data-img="furao" data-alt="Furão"><span class="ph-label">foto</span><span class="tag">Mamíferos</span></div>
+          <h3>Furão</h3>
+          <em>O Ladrãozinho de Meias</em>
+          <p>Foi achado perdido na rua depois de fugir de casa; curioso como sempre, já esconde meias pelos cantos.</p>
+        </article>
+        <article class="card animal" data-cat="Répteis" data-extra>
+          <div class="ph " data-img="tartaruga-estrelada" data-alt="Tartaruga-estrelada"><span class="ph-label">foto</span><span class="tag">Répteis</span></div>
+          <h3>Tartaruga-estrelada</h3>
+          <em>A Estrela Paciente</em>
+          <p>Chegou com o casco marcado por falta de luz e cálcio; com calma, o desenho em estrela volta a brilhar.</p>
+        </article>
+      </div>
+      <div class="more-row"><button type="button" class="btn" id="ver-mais">Ver mais animais</button></div>
+      <p class="more-link">Quer saber mais? <a href="cadastro.html">Cadastre-se</a></p>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

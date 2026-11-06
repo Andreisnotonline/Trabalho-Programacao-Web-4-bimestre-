@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastre-se — Legacy Exoticus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="logo" href="index.html" data-img="logo" data-alt="Legacy Exoticus" aria-label="Legacy Exoticus">
+        <span class="logo-word">LEGACY</span>
+        <span class="logo-sub">EXOTICUS</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="loja.html">Loja</a>
+        <a href="animais.html">Nossos Animais</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a class="btn btn-nav active" href="cadastro.html">Cadastre-se</a>
+      </nav>
+    </header>
+    <main>
+
+      <section class="two-col">
+        <div>
+          <span class="pill">Faça parte da nossa comunidade</span>
+          <h1 style="margin-bottom:30px">Faça parte<br><span class="gold">da nossa<br>selva</span></h1>
+          <p class="lead" style="margin-bottom:60px">Cadastre-se para agendar consultas, conhecer as espécies e acessar a loja com informação e orientação para uma convivência responsável.</p>
+          <div class="cta-row">
+            <a class="btn" href="animais.html">Conhecer os animais</a>
+            <a class="btn btn-outline" href="entrar.html">Já tenho conta</a>
+          </div>
+        </div>
+        <div class="card form-card">
+          <h2>Cadastre-se</h2>
+          <p class="sub">Crie sua conta em poucos minutos</p>
+          <form id="form-cadastro" novalidate>
+            <div class="field"><label for="nome">Nome completo</label><input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name"></div>
+            <div class="field"><label for="email">E-mail</label><input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email"></div>
+            <div class="row-2">
+              <div class="field"><label for="senha">Senha</label><input type="password" id="senha" name="senha" placeholder="••••••••" autocomplete="new-password"></div>
+              <div class="field"><label for="confirmar">Confirmar senha</label><input type="password" id="confirmar" name="confirmar" placeholder="••••••••" autocomplete="new-password"></div>
+            </div>
+            <div class="check"><input type="checkbox" id="termos" name="termos"><label for="termos">Li e aceito os Termos de uso</label></div>
+            <button type="submit" class="btn btn-submit">Criar conta</button>
+            <p class="form-msg" role="alert"></p>
+          </form>
+          <p class="form-foot">Já tem conta? <a href="entrar.html">Entrar</a></p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
