@@ -1,0 +1,14 @@
+{
+  "name": "legacy-exoticus",
+  "version": "1.0.0",
+  "description": "Site Legacy Exoticus com cadastro e login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

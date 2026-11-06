@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serviços — Legacy Exoticus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a class="logo" href="index.html" data-img="logo" data-alt="Legacy Exoticus" aria-label="Legacy Exoticus">
+        <span class="logo-word">LEGACY</span>
+        <span class="logo-sub">EXOTICUS</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicos.html" class="active">Serviços</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="loja.html">Loja</a>
+        <a href="animais.html">Nossos Animais</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a class="btn btn-nav" href="cadastro.html">Cadastre-se</a>
+      </nav>
+    </header>
+    <main>
+
+      <span class="pill">Serviços prestados</span>
+      <div class="page-head">
+        <h1>Nossos <span class="gold">serviços</span></h1>
+        <p class="aside-text">Do animal à ração, do viveiro à loja virtual: cada serviço separado e bem definido, com foco em animais exóticos.</p>
+      </div>
+      <div class="chips" data-filter-group=".service">
+        <button type="button" class="chip active" data-cat="todos">Todos</button>
+        <button type="button" class="chip" data-cat="compra">Compra e venda</button>
+        <button type="button" class="chip" data-cat="cuidados">Cuidados</button>
+        <button type="button" class="chip" data-cat="racao">Ração própria</button>
+        <button type="button" class="chip" data-cat="acessorios">Acessórios</button>
+        <button type="button" class="chip" data-cat="viveiros">Viveiros</button>
+        <button type="button" class="chip" data-cat="loja">Loja virtual</button>
+      </div>
+      <div class="grid-3">
+        <article class="card service" data-cat="compra">
+          <div class="service-top"><span class="num">01</span><h3>Compra e venda</h3></div>
+          <p>Especialidade em animais exóticos, com a cobra-rei albina em destaque, e atendimento também a animais convencionais. Cada animal chega com sua história.</p>
+        </article>
+        <article class="card service" data-cat="cuidados">
+          <div class="service-top"><span class="num">02</span><h3>Cuidados e atendimento</h3></div>
+          <p>Orientações, acompanhamento e cuidados específicos para a saúde e o bem-estar dos animais.</p>
+        </article>
+        <article class="card service" data-cat="racao">
+          <div class="service-top"><span class="num">03</span><h3>Ração própria</h3></div>
+          <p>Produzida e fabricada na própria instalação, formulada para as espécies que atendemos.</p>
+        </article>
+        <article class="card service" data-cat="acessorios">
+          <div class="service-top"><span class="num">04</span><h3>Acessórios e produtos</h3></div>
+          <p>Itens para o dia a dia dos animais: comedouros, bebedouros, substratos e mais.</p>
+        </article>
+        <article class="card service" data-cat="viveiros">
+          <div class="service-top"><span class="num">05</span><h3>Viveiros</h3></div>
+          <p>Montagem e venda de viveiros personalizados e prontos, com conforto e segurança para os animais.</p>
+        </article>
+        <article class="card service" data-cat="loja">
+          <div class="service-top"><span class="num">06</span><h3>Loja virtual</h3></div>
+          <p>Venda de ração, acessórios e informações sobre os animais, integrada ao WhatsApp Business.</p>
+        </article>
+      </div>
+      <div class="footer-row"><a class="btn" href="https://wa.me/5511900000000" target="_blank" rel="noopener">WhatsApp Business</a></div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
